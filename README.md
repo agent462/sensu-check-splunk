@@ -27,7 +27,11 @@ Below is an example configuration for the check.  While the plugin supports pass
   }
 }
 ```
-
+`-h` The hostname of the Splunk Server  
+`-p` The port of the Splunk Server
+`-u` The splunk user that has authentication privileges to the Splunk API
+`-P` The password for the splunk user
+`-s` Boolean to use SSL or not.
 
 License and Author
 ==================
