@@ -11,7 +11,7 @@ Features
 Configuration
 -------------
 Below is an example configuration for the check.  While the plugin supports passing username/password via the CLI inputs, I suggest modifying the default values in splunk-check.rb and not passing them in.
-
+`/etc/sensu/conf.d/checks/splunk.json`
 ```
 {
   "checks": {
